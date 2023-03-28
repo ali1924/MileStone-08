@@ -6,9 +6,9 @@ const Button = ({ children }) => {
     // const { children } = props;
     // console.log(children);
     return (
-        <>
-            <button className="btn btn-primary">{children}</button>
-        </>
+        <div className='text-center'>
+            <button className="btn btn-accent">{children}</button>
+        </div>
     );
 };
 

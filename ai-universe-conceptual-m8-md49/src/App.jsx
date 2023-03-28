@@ -1,5 +1,5 @@
-import React from 'react';
 import Button from './assets/components/Button/Button';
+import Cart from './assets/components/Cart/Cart';
 import Header from './assets/components/Header/Header';
 
 const App = () => {
@@ -7,6 +7,8 @@ const App = () => {
     <>
       <Header></Header>
       <Button>Sort By Date</Button>
+      <Cart></Cart>
+
       <Button>See More</Button>
     </>
   );
